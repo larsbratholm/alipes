@@ -37,7 +37,7 @@ def fit(
     """
     Fit X @ w = y with an l1-norm.
 
-    Since there is analytical solution with l1-norm, and numpy does not support
+    Since there is no analytical solution with l1-norm, and numpy does not support
     numerical optimization, I solve this numerically with gradient descent.
     Since the learning rate is fixed, and the convergence criteria is simple,
     the last few decimal are approximate.
