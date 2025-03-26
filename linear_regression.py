@@ -18,7 +18,7 @@ def l1_objective(
         y: (n, ) the target
 
     Returns:
-        l1-loss
+        l1-loss and gradient
     """
     y_estimate = x.dot(w)
     error = y_estimate - y
